@@ -192,7 +192,6 @@ function Hard(){
     <div id="hard">
       <h1 className="color_code">Color code : {code}</h1>
 
-
 		<h3 className="color_msg">{disc}</h3>
     </div>
     <Button variant="outline-success" id="btn1" className="play_btn" onClick=  {() => {
