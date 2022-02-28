@@ -71,7 +71,7 @@ function Hard(){
 
 	function cardhClickone(){
 		var backColor=document.getElementsByClassName('cardh')[0].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 
@@ -94,7 +94,7 @@ function Hard(){
 	}
 	function cardhClicktwo(){
 		var backColor=document.getElementsByClassName('cardh')[1].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 		 setDisc("You win !");
 
@@ -114,7 +114,7 @@ function Hard(){
 	}
 	function cardhClickthird(){
 		var backColor=document.getElementsByClassName('cardh')[2].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 			document.getElementById("hard").style.backgroundColor = backColor;
@@ -132,7 +132,7 @@ function Hard(){
 	}
 	function cardhClickfourth(){
 		var backColor=document.getElementsByClassName('cardh')[3].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 			document.getElementById("hard").style.backgroundColor = backColor;
@@ -150,7 +150,7 @@ function Hard(){
 	}
 	function cardhClickfift(){
 		var backColor=document.getElementsByClassName('cardh')[4].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 			document.getElementById("hard").style.backgroundColor = backColor;
@@ -168,7 +168,7 @@ function Hard(){
 	}
 	function cardhClicksix(){
 		var backColor=document.getElementsByClassName('cardh')[5].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 			document.getElementById("hard").style.backgroundColor = backColor;

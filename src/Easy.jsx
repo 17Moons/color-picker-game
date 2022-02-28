@@ -72,7 +72,7 @@ function Easy(){
 
 	function cardClickone(){
 		var backColor=document.getElementsByClassName('card')[0].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 			setDisc("You win !");
 
@@ -95,7 +95,7 @@ function Easy(){
 	}
 	function cardClicktwo(){
 		var backColor=document.getElementsByClassName('card')[1].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 		 setDisc("You win !");
 		 document.getElementById("easy").style.backgroundColor = backColor;
@@ -114,7 +114,7 @@ function Easy(){
 	}
 	function cardClickthird(){
 		var backColor=document.getElementsByClassName('card')[2].style.backgroundColor;
-		if(backColor==code)
+		if(backColor===code)
 		{
 
 			setDisc("You win !");
